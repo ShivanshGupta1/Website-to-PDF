@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <title>Home</title>
+</head>
+<body>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a class="navbar-item" href="https://en.wikipedia.org/wiki/PDF">
+      <img src="https://www.freeiconspng.com/thumbs/pdf-icon-png/pdf-icon-4.png">
+    </a>
+
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+
+  <div id="navbarBasicExample" class="navbar-menu">
+    <div class="navbar-start">
+      <a class="navbar-item" href="/">
+        Home
+      </a>
+
+     
+
+</nav>
+<div class="card" style="height: 50%; width: 25%; margin-left: 40%; margin-bottom: 3%;">
+  <div class="card-image">
+    <figure class="image is-4by3">
+      <img src="https://store-images.s-microsoft.com/image/apps.61150.14425216193477306.7995e750-aa31-4002-babf-c20e2fee570c.c1a00916-10f5-406c-83fd-2dc43d2778e4?mode=scale&q=90&h=300&w=300" alt="Placeholder image">
+    </figure>
+  </div>
+  <div class="card-content">
+    <div class="media">
+      <div class="media-left">
+        <figure class="image is-48x48">
+          <img src="https://www.freeiconspng.com/thumbs/pdf-icon-png/pdf-icon-4.png" alt="Placeholder image">
+        </figure>
+      </div>
+      <div class="media-content">
+        <p class="title is-4">Web to PDF</p>
+        <p class="subtitle is-6">By Shivansh Gupta</p>
+      </div>
+    </div>
+
+    <div class="content">
+      This is an app that converts any url to a pdf!
+      <a>@ShivanshGupta</a>.
+      <a href="#">#pdf</a> <a href="#">#web</a>
+      <br>
+    
+    </div>
+  </div>
+</div>
+   <form action="/pdf" method="POST">
+<input class="input is-primary" type="text" name="url" placeholder="Url to convert" style="width: 50%; margin-left: 25%;">
+ 
+
+  <button class="button is-primary" type="submit">Submit</button>
+ 
+
+    </form>
+</body>
+</html>
